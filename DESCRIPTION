@@ -1,0 +1,26 @@
+Package: Bayenet
+Type: Package
+Title: Bayesian Quantile Elastic Net for Genetic Study
+Version: 1.0
+Date: 2023-04-17
+Author: Xi Lu
+Maintainer: Xi Lu <xilu@ksu.edu>
+Description: As heavy-tailed error distribution and outliers in the response variable widely exist, models which are robust to data contamination are highly demanded. Here, We develop a novel robust Bayesian variable selection method with elastic net penalty for quantile regression in genetic analysis. In particular, the spike-and-slab priors have been incorporated to impose sparsity. An efficient Gibbs sampler has been developed to facilitate computation. The algorithms of the proposed and alternative methods are efficiently implemented in 'C++'.
+Depends: R (>= 3.5.0)
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
+LinkingTo: Rcpp, RcppArmadillo
+Imports: 
+    Rcpp,
+    stats,
+    MCMCpack,
+    base,
+    gsl,
+    VGAM,
+    MASS,
+    hbmem,
+    SuppDists
+RoxygenNote: 7.2.3
+NeedsCompilation: yes
+Repository: CRAN
