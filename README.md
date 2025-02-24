@@ -3,7 +3,17 @@
 
 # Bayenet
 
-> Bayesian Quantile Elastic Net for Genetic Study 
+> Bayesian Quantile Elastic Net for Genetic Study
+
+<!-- badges: start -->
+
+[![CRAN](https://www.r-pkg.org/badges/version/Bayenet)](https://cran.r-project.org/package=Bayenet)
+[![CRAN RStudio mirror
+downloads](https://cranlogs.r-pkg.org/badges/grand-total/Bayenet)](https://www.r-pkg.org:443/pkg/Bayenet)
+[![CRAN RStudio mirror
+downloads](https://cranlogs.r-pkg.org/badges/last-month/Bayenet)](https://www.r-pkg.org:443/pkg/Bayenet)
+
+<!-- badges: end -->
 
 As heavy-tailed error distribution and outliers in the response variable widely exist, models which are robust to data contamination are highly demanded. Here, We develop a novel robust Bayesian variable selection method with elastic net penalty for quantile regression in genetic analysis. In particular, the spike-and-slab priors have been incorporated to impose sparsity. An efficient Gibbs sampler has been developed to facilitate computation. The algorithms of the proposed and alternative methods are efficiently implemented in 'C++'.
 ## How to install
